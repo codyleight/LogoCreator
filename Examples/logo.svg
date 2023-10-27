@@ -1,0 +1,7 @@
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+      <rect width="300" height="200" fill="white" />
+      <g transform="translate(100,50)">
+        <polygon points="50,0 100,100 0,100" fill="123" />
+        <text x="50" y="50" fill="123" text-anchor="middle" alignment-baseline="middle">123</text>
+      </g>
+    </svg>
