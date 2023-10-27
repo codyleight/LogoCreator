@@ -19,7 +19,7 @@ function init() {
       },
       {
         type: 'input',
-        message: 'What Color do you want the text on your Logo to be? Choose a Specific Color, or Enter a HexiDecimal Value.',
+        message: 'What Color do you want the text on your Logo to be? Choose a Specific Color, or Enter a HexiDecimal Value. Format for hex #000000',
         name: 'textColor',
       },
       {
@@ -37,7 +37,7 @@ function init() {
     .then((response) => writeToFile(response));
 }
 
-function writeToFile(response) {
+function writeToFile(response) { //We could just jump to generateSVG however I wanted to test the values before passing them.
   console.log(response.shape);
   console.log(response.color);
   console.log(response.textColor);
