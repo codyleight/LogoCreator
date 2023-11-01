@@ -22,6 +22,7 @@ Installation requires, npm Inquirer, as well as jest and SVG
 ## Usage:
 
 Use to create a Logo in SVG format, while it is simple You can create a basic Logo very fast!
+Link to Video = [chrome-extension://mmeijimgabbpbgpdklnllpncmdofkcpn/app.html#/files/bd07282c-3c65-422d-y909-be3131e60fe4](https://watch.screencastify.com/v/mnfrRdq0t9HkQZonstgg)
 
 ## Credits:
 
